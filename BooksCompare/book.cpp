@@ -71,6 +71,6 @@ namespace hw {
 	int CompareBooksByAuthorAndTitleAndYear(const book& first, const book& second) {
 		return first.cAuthor<second.cAuthor ? -1 : first.cAuthor>second.cAuthor ? 1 :
 			first.cTitle<second.cTitle ? -1 : first.cTitle>second.cTitle ? 1 :
-			first.cYear<second.cYear ? -1 : first.cYear>second.cYear ? 1 : 0;
+			first.cYear<second.cYear ? -1 : 1;
 	}
 }
